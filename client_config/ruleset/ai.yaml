@@ -6,9 +6,6 @@
 # 域名后缀匹配
 payload:
   - DOMAIN,copilot.microsoft.com
-  - DOMAIN-SUFFIX,grok.com
-  - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,auth0.com
@@ -36,6 +33,11 @@ payload:
   - DOMAIN-SUFFIX,bortzmeyer.org
   - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,difyai.com
+
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,meta.ai
 
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,googleapis.cn
